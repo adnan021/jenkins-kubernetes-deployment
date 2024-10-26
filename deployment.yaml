@@ -21,6 +21,6 @@ spec:
       containers:
       - name: react-app #The name of the react.js application container
         #The Docker image for building the React.js application container
-        image: bravinwasike/react-app:latest 
+        image: adnan021/react-app:latest 
         ports:
         - containerPort: 3000 #The port for the React.js application container
